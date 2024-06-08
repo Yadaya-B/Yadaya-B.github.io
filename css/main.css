@@ -1,0 +1,76 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.About {
+    font-size: 18px;
+    font-weight: 300;
+    color: darkslategray;
+    margin-bottom: 20px;
+}
+
+.Avatar {
+    height: 180px;
+    background-color: rgb(0, 37, 93);
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 4px 4px 6px 0px rgb(88, 88, 88);
+}
+
+.Button {
+    background-color:  rgb(0, 37, 93);
+    color: whitesmoke;
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.Contact {
+    margin-bottom: 40px;
+}
+
+.Contact-icon {
+    margin-right: 12px;
+    width: 16px;
+}
+
+.Content {
+    max-width: 500px;
+}
+
+.Container {
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 1) , rgba(255, 255, 255, 0.7)),
+    url(https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top left;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+    .Container {
+        padding: 48px;
+    }
+    
+}
+
+.Job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Name {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .Name {
+        font-size: 28px;
+    }
+}
+.Item {
+    margin-bottom: 4px;
+}
